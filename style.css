@@ -3,6 +3,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #ccd046;
+    font-size: 3.5vw;
+    font-family: 'Caveat', cursive;
 }
 .header {
 
@@ -51,8 +53,6 @@ body {
 
 .header__text {
     padding: 0 8vw;
-    font-size: 4.5vw;
-    font-family: 'Caveat', cursive;
     color: #ab1531;
     font-weight: 600;
 }
@@ -121,7 +121,7 @@ body {
     color: #0f0f11;
 }
 
-.section3 {
+.section3, .section4 {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -129,6 +129,7 @@ body {
 
 .section3__video-container {
     width: 50%;
+    padding: 0 2vw;
     height: 48vw;
     display: flex;
     align-items: center;
@@ -138,5 +139,89 @@ body {
 .section3__item {
     width: 50%;
     height: 48vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
+.section3__item-text {
+    padding: 0 4vw;
+}
+
+.movie {
+    width: 100%;
+    height: auto;
+    margin: 0 auto; 
+    display: block;
+    max-width: 38vw;
+}
+
+.section4__item {
+    width: 50%;
+    height: 48vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section4__container {
+    width: 49vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section4__item-text {
+    padding: 0 4vw;
+}
+
+.section4__video-container {
+    width: 80%;
+    padding: 0 2vw;
+    height: 48vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4__img {
+    width: 80%;
+}
+
+.section5 {
+    width: 100%;
+}
+
+.section5__item {
+    width: 60%;
+    margin-left: auto;
+    align-items: flex-start;
+}
+
+.footer {
+    width: 100%;
+    padding-bottom: 8vw;
+}
+
+.footer__top-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__bottom-container {
+    padding-top: 8vw;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-img {
+    width: 4vw;
+    height: 4vw;
+    color: blue;
+}
